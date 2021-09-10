@@ -1,0 +1,6 @@
+file = open("C:\\Users\\Brian Chau\\Downloads\\rosalind_rna.txt", "r+")
+DnaString = file.readline()
+file.close()
+AnswerFile =open("C:\\Users\\Brian Chau\\Downloads\\rosalind_rna_answer.txt", "w+")
+answer = AnswerFile.write(DnaString.replace("T", "U"))
+AnswerFile.close()
